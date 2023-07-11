@@ -7,4 +7,4 @@ services:
       - '4000:4000'
     volumes:
       - ./api:/app
-      - ./app/node_modules
+      - /app/node_modules
